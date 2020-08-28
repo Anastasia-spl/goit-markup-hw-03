@@ -8,6 +8,7 @@
   --footer-bg-color: #2f303a;
   --f-contacts-color: rgba(255, 255, 255, 0.6);
   --line-color: #ececec;
+  --border-color: #eeeeee;
 }
 
 /* Переменная --white-color контраст белого текста на темном фоне*/
@@ -381,6 +382,9 @@ img {
 
 .portfolio-content {
   padding: 20px 24px;
+  border-right: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  border-left: 1px solid var(--border-color);
 }
 
 /* Контакты страница */
