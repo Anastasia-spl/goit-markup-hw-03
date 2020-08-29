@@ -11,8 +11,6 @@
   --border-color: #eeeeee;
 }
 
-/* Переменная --white-color контраст белого текста на темном фоне*/
-
 .body {
   background-color: var(--white-color);
   font-family: "Roboto", sans-serif;
@@ -64,6 +62,17 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: react(0 0 0 0);
+  overflow: hidden;
 }
 
 /* header part */
